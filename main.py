@@ -8,8 +8,8 @@ def direction(facing, turn):
                 return directions[end_index]
             else:
                 return "Задайте верный угол поворота (от -1080 до 1080 с шагом 45)"
-        else:
-            return 'Задайте верную точку отсчета компаса ("N", "NE", "E", "SE", "S", "SW", "W", "NW")'
+    else:
+        return 'Задайте верную точку отсчета компаса ("N", "NE", "E", "SE", "S", "SW", "W", "NW")'
 
 
 
